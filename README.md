@@ -92,7 +92,7 @@ sha256sum -c SHA256SUMS
 
 ## Related
 
-- [cobo-tss-node-skill](https://github.com/CoboTest/cobo-tss-node-skill) — Automation scripts for install, service setup, and daily operations
+- [cobo-tss-node-skill](https://github.com/CoboGlobal/cobo-agentic-wallet-python-sdk/tree/master/skills/cobo-agentic-wallet) — Automation scripts for install, service setup, and daily operations
 - [Cobo MPC Wallet Documentation](https://www.cobo.com/developers/mpc-wallet)
 
 ## License
