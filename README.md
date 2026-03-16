@@ -1,6 +1,6 @@
 # Cobo TSS Node Release
 
-Pre-built binaries for [Cobo TSS Node](https://www.cobo.com/mpc-wallet) — the client-side component for Cobo's MPC co-managed custody solution.
+Pre-built binaries for [Cobo TSS Node](https://www.cobo.com/developers/v2/guides/mpc-wallets/server-co-signer/tss-node-overview) — the client-side component for Cobo's MPC co-managed custody solution.
 
 ## Download
 
