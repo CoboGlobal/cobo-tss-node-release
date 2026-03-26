@@ -10,17 +10,18 @@ Download the latest release from the [Releases](https://github.com/CoboGlobal/co
 
 | Platform | Architecture | Filename |
 |----------|-------------|----------|
-| Linux | x86_64 (amd64) | `cobo-tss-node-<version>-linux-amd64.tar.gz` |
-| Linux | ARM64 | `cobo-tss-node-<version>-linux-arm64.tar.gz` |
-| macOS | Intel (amd64) | `cobo-tss-node-<version>-darwin-amd64.tar.gz` |
-| macOS | Apple Silicon (arm64) | `cobo-tss-node-<version>-darwin-arm64.tar.gz` |
+| Linux | x86_64 (amd64) | `cobo-tss-node-linux-amd64-<version>.tar.gz` |
+| Linux | ARM64 | `cobo-tss-node-linux-arm64-<version>.tar.gz` |
+| macOS | Intel (amd64) | `cobo-tss-node-darwin-amd64-<version>.tar.gz` |
+| macOS | Apple Silicon (arm64) | `cobo-tss-node-darwin-arm64-<version>.tar.gz` |
+| windows | x86_64 (amd64) | `cobo-tss-node-windows-amd64-<version>.tar.gz` |
 
 ## Quick Start
 
 ```bash
 # Download and extract (example: Linux amd64)
-tar xzf cobo-tss-node-v0.12.0-linux-amd64.tar.gz
-cd cobo-tss-node-v0.12.0-linux-amd64
+tar xzf cobo-tss-node-linux-amd64-v0.12.11.tar.gz
+cd cobo-tss-node-linux-amd64
 
 # Initialize node
 ./cobo-tss-node init
@@ -37,7 +38,7 @@ cd cobo-tss-node-v0.12.0-linux-amd64
 Each archive contains:
 
 ```
-cobo-tss-node-<version>-<os>-<arch>/
+cobo-tss-node-<os>-<arch>/
 ├── cobo-tss-node                              # Main binary
 ├── SHA256SUMS                                 # Checksums for verification
 └── configs/
